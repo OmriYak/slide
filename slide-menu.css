@@ -53,7 +53,7 @@ body {
 }
 
 .slide-menu .left .top {
-	height: 100px;
+	height: 35px;
 }
 
 .slide-menu .left .bottom {
@@ -65,8 +65,8 @@ body {
 .slide-menu-button {
 	font-size: 60px;
 	line-height: 8px;
-	height: 100px;
-	width: 100px;
+	height: 35px;
+	width: 35px;
 	border-radius: 5px 0px 0px 5px;
 	background-color: black;
 	text-align: center;
