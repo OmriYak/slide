@@ -1,0 +1,81 @@
+body {
+	margin: 0;
+	direction: rtl;
+}
+
+.container-with-slide-menu {
+	overflow: hidden;
+	position: relative;
+	min-height: 100vh;
+	width: 100vw;
+	background-color: grey;
+	margin-left: 0px;
+	border-width: 0px;
+}
+
+.slide-menu {
+	background-color: black;
+	color: white;
+	height: 100%;
+	width: 40%;
+	z-index: 9999;
+	position: absolute;
+	top: 0;
+	left: 100%;
+	transition: left 0.5s;
+	display: flex;
+}
+
+.slide-menu .left {
+	flex-basis: 5%;
+	height: 100%;
+	order: 1;
+}
+
+.slide-menu .right {
+	flex-basis: 95%;
+	height: 100%;
+	text-align: center;
+}
+
+.slide-menu .right a {
+	display: block;
+	margin: 10px;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: arial;
+	color: white;
+	text-shadow: 10px 3px 13px rgb(255,0,0);
+}
+
+.slide-menu .right a:hover {
+	color: rgb(255,0,0);
+}
+
+.slide-menu .left .top {
+	height: 35px;
+}
+
+.slide-menu .left .bottom {
+	border-left: 1px solid white;
+	top: 35px;
+	height: 100%;
+}
+
+.slide-menu-button {
+	font-size: 60px;
+	line-height: 8px;
+	height: 35px;
+	width: 35px;
+	border-radius: 5px 0px 0px 5px;
+	background-color: black;
+	text-align: center;
+	border-width: 0px 0px 1px 1px;
+	border-color: white;
+	border-style: solid; 
+	color: white;
+	cursor: pointer;
+	right: 0;
+	transition: right 0.5s;
+	position: absolute;
+}
