@@ -53,29 +53,37 @@ body {
 }
 
 .slide-menu .left .top {
+	border-left: 1px solid white;
+	height: 10px;
+}
+
+.slide-menu .left .middle {
+	top: 10px;
 	height: 35px;
 }
 
 .slide-menu .left .bottom {
 	border-left: 1px solid white;
-	top: 35px;
+	top: 45px;
 	height: 100%;
 }
 
 .slide-menu-button {
 	font-size: 60px;
-	line-height: 8px;
+	line-height: 7px;
 	height: 35px;
 	width: 35px;
 	border-radius: 5px 0px 0px 5px;
 	background-color: black;
 	text-align: center;
-	border-width: 0px 0px 1px 1px;
+	border-width: 1px 0px 1px 1px;
 	border-color: white;
 	border-style: solid; 
 	color: white;
 	cursor: pointer;
 	right: 0;
+	top: 10px;
 	transition: right 0.5s;
 	position: absolute;
+	box-sizing: border-box;
 }
